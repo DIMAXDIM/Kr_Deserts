@@ -42,6 +42,8 @@ INSTALLED_APPS = [
 # подключаем ещё приложения
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'fpages',
+
 ]
 
 SITE_ID = 1
@@ -135,7 +137,7 @@ STATICFILES_DIRS = [
 ]
 
 
-
+TELEGRAM_BOT_TOKEN = '6372700016:AAGirBgxaCvg8AMxs3qUBvFbNPLMkENl9h4'
 
 
 

@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from .views import get_name
+from .views import send_telegram_message
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('pages/', include('django.contrib.flatpages.urls')),
-    path('',get_name),
+    path('', get_name),
+    path('name/', send_telegram_message, name='send_telegram_message'),
 ]

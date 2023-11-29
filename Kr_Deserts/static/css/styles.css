@@ -645,20 +645,17 @@ header{
     line-height: 39px;
     margin-top: 24px;
 }
-.block5 .knopki{
+.form{
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-.block5 .for_input{
-    width: 504px;
+    margin: 69px auto;
+    width: 839px;
     height: 88px;
     border-radius: 33px;
-    background: #EDEDED;
 
 }
 
-.block5 .for_input div{
+
+.block5 .divvv{
     position: absolute;
     width: 88px;
     height: 88px;
@@ -671,14 +668,14 @@ header{
     transition: 0.2s linear;
 
 }
-.block5 .for_input div:hover{
+.block5 .divvv:hover{
     background: url(images/B5/image.png), lightgray 100% / cover no-repeat;
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #adadad;
 }
-.block5 input{
+.block5 input[type="text"]{
     width: 504px;
     height: 88px;
     border-radius: 33px;
@@ -694,7 +691,7 @@ header{
     letter-spacing: 0.05em;
 
 }
-.block5 button{
+.block5 input[type="submit"]{
     border: none;
     border-radius: 33px;
     background: #D11D65;
@@ -713,11 +710,8 @@ header{
     cursor: pointer;
 
 }
-.block5 button:hover{
-    color: #fff;
-    background: #bc6a8b;
 
-}
+
 
 /*FOOTER*/
 
